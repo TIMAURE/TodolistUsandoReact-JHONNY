@@ -10,3 +10,37 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    margin-top: 100px;
+    background-color: lightcyan;
+}
+.contenedor{
+
+}
+h1 { font-size: 20px;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 207px;
+    color: burlywood;
+    
+}
+ul li {
+padding: 5px;
+
+    
+    list-style: none;
+}
+li{
+    border-bottom: 1px solid lightgray;
+}
+ul{padding-inline-start: 0px !important;
+    border: 1px solid lightgrey;
+    margin: 0;
+    width: 300px;
+    display: inline-block;
+    text-align: justify;
+    margin-left: 80px;
+}
+input{border: none;
+background-color
+: lightcyan;}
