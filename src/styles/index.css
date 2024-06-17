@@ -22,10 +22,10 @@ body{
   
   ul {
     list-style-type: none;
-    padding: 0;
+    padding: 5px;
     width: 1000px;
     margin-left: 200px;
-    border-radius: 5px;
+    border-radius: 2px;
     border: 1px solid #000000 ;
     border-bottom: 1px solid #000000;
     
@@ -37,7 +37,7 @@ body{
     align-items: center;
     padding: 5px 0;
     border-bottom: 1px solid #000000;
-    border-radius: 5px;
+    border-radius: 2px;
     margin-left: 10px;
   }
   
@@ -50,17 +50,21 @@ body{
   
   .fa-x {
     cursor: pointer;
-   
-    color: #f9b7b7; 
+   visibility: hidden;
+    color: #fb8383; 
   transition: color 0.3s ease-in-out; 
 }
 .fa-x:hover {
     color: #7c0000; 
+    
   }
-  
+  .conjunto:hover .fa-x{
+    visibility: visible;
+  }
+   
   
   .numeroPagina {
     margin-left: 210px;
     margin-top: 10px;
-    color: #555;
+    color: #555353;
   }
