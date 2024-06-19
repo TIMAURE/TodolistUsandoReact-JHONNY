@@ -8,7 +8,7 @@ body{
     border: 1px solid #060606;
     border-radius: 5px;
     background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
     margin: 10px;
     
   }
@@ -28,6 +28,7 @@ body{
     border-radius: 2px;
     border: 1px solid #000000 ;
     border-bottom: 1px solid #000000;
+    box-shadow: 5px 5px 0  #d6d6d6, 10px 10px 0px  #bfbfbf, 15px 15px 5px  #777575 ;
     
   }
   
